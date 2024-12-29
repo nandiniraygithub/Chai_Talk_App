@@ -1,9 +1,9 @@
 import Navbar from "./components/Navbar";
 
 import HomePage from "./pages/HomePage";
-import SignUpPage from "./pages/SignUpPage";
+import SignUpPage from "./pages/SignUpPage"; // Correct path relative to App.jsx
 import LoginPage from "./pages/LoginPage";
-import SettingsPage from "./pages/settingsPage.jsx";
+import SettingsPage from "./pages/settingsPage";
 import ProfilePage from "./pages/ProfilePage";
 
 import { Routes, Route, Navigate } from "react-router-dom";
